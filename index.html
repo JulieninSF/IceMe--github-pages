@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>--- 1st website on the way ---</title>
+    <title>My 1st Website</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="CSS/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -17,17 +21,228 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
 
 
+<body>
+
+
+
+<!-- Dans <nav>, on fixe la class "navbar-fixed-top", pour que quand on scroll la navbar reste affichée > cest une class bootstrap
+on crée nous mm une class "navbar-transparent" cf css file pr format transparent
+-->
+
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Menu</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!--
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+          -->
+        </li>
+      </ul>
+      <!--
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Options</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Follow us <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            
+        
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<br>
+<br>
+<br>
+
+<!--
+<form action="demo_form.asp">
+  Prénom de titounet: <input type="text" name="fname"><br>
+  Nom de titounet: <input type="text" name="lname"><br>
+  <input type="submit" value="Ok">
+</form>
+-->
+
+  <div class="wrapper">
+
+      <h1 align="center"> <b>MONEY MATTERS, SAVE IT! </b></h1>
+      <h2 align="center"> <i> How much did I spend? </i>  </h2>
+      <br>
+      <button class="btn btn-primary" type="button">Register now !
+ </button>
+
+ </div>
+
+ <div class="spacer2"></div>
+
+<!--<center> Ceci est un arbre <br>
+<i class="fa fa-envira" aria-hidden="true"></i>
+-->
+<div id="container" class="circle">
+    <div class="row">
+          <center>
+          <div class="col-xs-4 feature">
+          <img alt="past" src="Images/past.jpg" width=200 height="220">
+          <p>Where did my money go? </p>
+          </div>
+
+
+
+    <div class="col-xs-4 feature">
+          <img alt="present" src="Images/present.jpg" width=200 height="220">
+          <p>Let's pay attention now ! </p>
+          </div>
+
+    <div class="col-xs-4 feature">
+          <img alt="future" src="Images/future.jpeg" width=200 height="220">
+          <p>... to meet my Objectives </p>
+          </div>
+</center>
+
+    </div>
+
+</div>
+
+
+<!-- Insert Image
+
+
+<center> <img src="Images/me.jpg" alt="me" width="400" height="500" id="logo" class="staff shadow">
+-->
+<br>
+
+<!--<img src="Images/me copie.png" alt="me" width="400" height="500" class="staff"> 
+-->
+
+</center>
+
+<!-- Liens réseaux sociaux avec les hyperlinks
+-->
+
+<div id="footer">
+<div class="container">
+<div id="social">   
+
+        
+
+        <h3>Suivez nous sur les réseaux sociaux</h3>
+        
+          
+        <ul class="list-inline">
+        <div class="row social">
+          
+          <div class="col-xs-3">
+          <a href="https://www.facebook.com/">
+          <i class="fa fa-facebook-square" aria-hidden="true">  Facebook</i></a> 
+          </div>
+
+          <div class="col-xs-3">
+          <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true">  Twitter</i></a>   
+          </div>
+
+           <div class="col-xs-3">
+         <a href="https://twitter.com/?lang=en"><i class="fa fa-instagram" aria-hidden="true">  Instagram</i></a> 
+          </div>
+
+           <div class="col-xs-3">
+          <a href="https://twitter.com/?lang=en"><i class="fa fa-soundcloud" aria-hidden="true">  Soundcloud</i></a> 
+          
+          </div>
+          </li>
+        </div>
+
+
+</div>
+</div>
+</div>
+
+</ul>
+<!-- Insert a test table below 
+  <p align="center">
+    <a href="https://www.google.fr/?gws_rd=ssl">BP next 3 years </a>
+  </p>
+
+
+
+
+<table border="1" bordercolor="green" bgcolor="yellow" align="center">
+
+<caption>This is the caption</caption>
+
+<tr>
+<th>CA 2016</th>
+<th>CA 2017</th>
+<th>CA 2018</th>
+</tr>
+<tr><td rowspan="2">$10m</td><td>$8m H1</td><td>$15m H1</td></tr>
+<tr><td>$4m H2</td><td>$32m H2</td></tr>
+<center> <tr><td colspan="3">Forecast 3 years</td> </center></tr>
+</table>
+-->
+
+<div id="select">
+
+<!-- Insert Form
+
+<br/>
+
+<form>
+
+<center> Valuation in next 5 years <br>
+<select name="dropdown">
+
+<option value="$1bn" selected>$1bn </option>
+<option value="$2bn">$2bn </option>
+<option value="$3bn">$3bn </option>
+<option value="La saucisse à Jean Paul">La saucisse à Jean Paul </option>
+
+</select>
+</center>
+</form>
+-->
+</div>
+
+</div>
 
     <!-- TODO: Here goes your content! -->
-    <div class="container">
-    <div class="row">
-    <div class="col-md-6">Hello World CoCo</div>  
-
-    </div>   
-    </div
 
 
 
