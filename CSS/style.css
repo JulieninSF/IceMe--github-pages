@@ -38,7 +38,7 @@ box-shadow:5px 5px 10px black;
 }
 
 #logo{
-	
+
 }
 
 #container{
@@ -52,13 +52,26 @@ box-shadow:5px 5px 10px black;
 
 
 
-/* 
-On aurait pu mettre 
-padding:50px replace les 
-4 padding 
+/*
+On aurait pu mettre
+padding:50px replace les
+4 padding
 */
 
-	
+
+}
+
+.vertical-spacer{
+	height:8em;
+}
+
+.vertical-spacerbig{
+	height:20em;
+}
+
+#socialntw{
+font-size:30px;
+color:black;
 }
 
 #select{
