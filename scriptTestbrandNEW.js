@@ -112,14 +112,14 @@ function weeklySpend() {
   document.getElementById("hTicketFood").innerHTML += "<p>Finally, you made it for " + week + " weeks this month.</p>";
  // end of function's }
 
+
 //TRANSPORT
 
   while (vBudgetTransport > 0) {
-
-    week++;
+    var week = 0;
     var SpentweeklyTransport = calculateWeeklyspend();
     var diffTransport = SpentweeklyTransport - vBudgetTransportini * (1/4);
-
+    week++;
     //if (nbrSandwiches < 1) {
     //    nbrSandwiches = 1000;
     //}
@@ -174,3 +174,4 @@ function reinitFormu() {
     //document.getElementById("hTicketClothing").innerHTML = "";
 
 }
+
