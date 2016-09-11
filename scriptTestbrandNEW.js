@@ -174,4 +174,3 @@ function reinitFormu() {
     //document.getElementById("hTicketClothing").innerHTML = "";
 
 }
-
